@@ -10,7 +10,9 @@ public class PertanyaanLib {
             "Siapa Presiden ke 1 Indonesia?",
             "Ibukota Negara Indonesia ?.",
             "Pemenang SUCI 7 ?",
-            "Pendiri Google ?"
+            "Pendiri Google ?",
+            "Siapa Presiden yang Suka Bagi-Bagi Sepeda ?",
+            "Kendaraa Perang yang Terbauat dari Baja ?"
 
     };
 
@@ -19,11 +21,13 @@ public class PertanyaanLib {
             {"Ir. Soekarno", "Habibie", "Megawati"},
             {"Yogyakarta", "DKI Jakarta", "Surabaya"},
             {"Mamat", "Ridwan R", "Roots"},
-            {"Steve Job", "Bill Gate", "Larry Page"}
+            {"Steve Job", "Bill Gate", "Larry Page"},
+            {"Megawati", "Joko Widodo", "B.J. Habibie"},
+            {"Tank", "Motor", "Ontel"}
     };
 
 
-    private String mCorrectAnswers[] = {"Ir. Soekarno", "DKI Jakarta", "Ridwan R", "Larry Page"};
+    private String mCorrectAnswers[] = {"Ir. Soekarno", "DKI Jakarta", "Ridwan R", "Larry Page", "Joko Widodo", "Tank"};
 
 
     public String getPertanyaan(int a) {
